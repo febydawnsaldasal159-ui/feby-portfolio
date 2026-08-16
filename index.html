@@ -1,118 +1,459 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Feby Dawn Saldasal | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About Me</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
 
-    <header id="home">
-        <img src="./feby.jpg" alt="Feby" class="profile-photo">
-        <h1>Hi! I'm Feby Dawn.</h1>
-        <p class="intro">
-            BSIT Student | Aspiring Web Developer
+    <!-- NAVBAR -->
+
+    <nav>
+        <div class="nav-logo">FEBY.</div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#techstack">Tech</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+
+    <header id="home" class="hero">
+
+    <div class="hero-content">
+
+        <div class="availability">
+            Available for Opportunities
+        </div>
+
+        <p class="hero-subtitle">
+            HELLO, I'M
         </p>
-        <a href="#contact" class="contact-btn">Contact Me</a>
-        <p class="goal">My goal is to become a freelance web developer</p>
-    </header>
+
+        <h1>
+            Feby <span>Dawn.</span>
+        </h1>
+
+        <p class="intro">
+            BSIT Student & Aspiring Web Developer
+        </p>
+
+        <p class="hero-description">
+            I am passionate about creating clean, modern and
+            user-friendly websites while continuously improving
+            my skills in web development.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="primary-btn">
+                View My Work
+            </a>
+
+            <a href="#contact" class="secondary-btn">
+                Contact Me
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <div class="image-glow"></div>
+
+        <img
+            src="https://raw.githubusercontent.com/febydawnsaldasal159-ui/feby-portfolio/main/feby.jpg"
+            alt="Feby Dawn"
+            class="profile-photo"
+        >
+
+    </div>
+
+    <div class="scroll-indicator">
+        ↓ Scroll to explore
+    </div>
+
+</header>
+
+
+    <!-- ABOUT -->
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a BSIT student learning web development and building my skills for freelancing.
-        </p>
-        <p>
-            I am a passionate and hardworking student who enjoys learning new things
-            and improving my skills. I am always willing to explore new ideas and challenges.
-        </p>
-        <p class="highlight">
-    Always learning. Always improving. Always moving forward.
-</p>
+
+        <div class="section-title">
+
+            <span>01</span>
+            <h2>About Me</h2>
+
+        </div>
+
+        <div class="about-content">
+
+            <p>
+                I am a BSIT student learning web development and
+                building my skills for freelancing.
+            </p>
+
+            <p>
+                I am a passionate and hardworking student who enjoys
+                learning new things and improving my skills. I am
+                always willing to explore new ideas and challenges.
+            </p>
+
+            <div class="highlight">
+                Always learning. Always improving. Always moving forward.
+            </div>
+
+        </div>
+
     </section>
+
+
+    <!-- SKILLS -->
 
     <section id="skills">
-        <h2>My Skills</h2>
+
+        <div class="section-title">
+
+            <span>02</span>
+            <h2>My Skills</h2>
+
+        </div>
+
 
         <div class="skills-container">
-    <div class="skill-card">
-        <h3>HTML</h3>
-        <p>Building the structure of websites.</p>
-    </div>
 
-    <div class="skill-card">
-        <h3>CSS</h3>
-        <p>Designing and styling websites.</p>
-    </div>
+            <div class="skill-card">
 
-    <div class="skill-card">
-        <h3>JavaScript</h3>
-        <p>Learning how to make websites interactive.</p>
-    </div>
+                <div class="skill-number">
+                    01
+                </div>
 
-    <div class="skill-card">
-        <h3>Web Development</h3>
-        <p>Building and improving my web development skills.</p>
-    </div>
-</div>
-<section id="projects">
-    <h2>My Projects</h2>
+                <h3>HTML</h3>
 
-    <div class="projects-container">
+                <p>
+                    Building the structure and foundation
+                    of modern websites.
+                </p>
 
-        <div class="project-card">
-            <h3>Personal Portfolio</h3>
-            <p>
-                A personal portfolio website created using HTML and CSS
-                to showcase my skills, interests, and projects.
-            </p>
-            <span>HTML • CSS</span>
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-number">
+                    02
+                </div>
+
+                <h3>CSS</h3>
+
+                <p>
+                    Designing clean, responsive and
+                    visually appealing websites.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-number">
+                    03
+                </div>
+
+                <h3>JavaScript</h3>
+
+                <p>
+                    Learning how to make websites
+                    interactive and dynamic.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-number">
+                    04
+                </div>
+
+                <h3>Web Development</h3>
+
+                <p>
+                    Building and continuously improving
+                    my web development abilities.
+                </p>
+
+            </div>
+
         </div>
 
-        <div class="project-card">
-            <h3>Student Website</h3>
-            <p>
-                A simple website project created as part of my studies
-                while learning the fundamentals of web development.
-            </p>
-            <span>HTML • CSS • JavaScript</span>
-        </div>
-
-        <div class="project-card">
-            <h3>Future Project</h3>
-            <p>
-                A future web development project that I plan to build
-                as I continue improving my programming skills.
-            </p>
-            <span>Coming Soon</span>
-        </div>
-
-    </div>
-</section>
     </section>
+
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+
+        <div class="section-title">
+
+            <span>03</span>
+            <h2>My Projects</h2>
+
+        </div>
+
+
+        <div class="projects-container">
+
+
+            <div class="project-card">
+
+                <div class="project-top">
+                    <span>01</span>
+                    <span>HTML • CSS</span>
+                </div>
+
+                <div class="project-icon">
+                    &lt;/&gt;
+                </div>
+
+                <h3>
+                    Personal Portfolio
+                </h3>
+
+                <p>
+                    A personal portfolio website created using
+                    HTML and CSS to showcase my skills,
+                    interests and projects.
+                </p>
+
+                <a href="https://febydawnsaldasal159-ui.github.io/feby-portfolio/"
+                   target="_blank"
+                   class="project-btn">
+
+                    View Project →
+
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-top">
+                    <span>02</span>
+                    <span>HTML • CSS • JS</span>
+                </div>
+
+                <div class="project-icon">
+                    ✦
+                </div>
+
+                <h3>
+                    Student Website
+                </h3>
+
+                <p>
+                    A simple website project created while
+                    learning the fundamentals of web development.
+                </p>
+
+                <a href="#contact"
+                   class="project-btn">
+
+                    View Project →
+
+                </a>
+
+            </div>
+
+
+            <div class="project-card coming-soon">
+
+                <div class="project-top">
+                    <span>03</span>
+                    <span>COMING SOON</span>
+                </div>
+
+                <div class="project-icon">
+                    +
+                </div>
+
+                <h3>
+                    Future Project
+                </h3>
+
+                <p>
+                    A future project that I plan to build as
+                    I continue improving my development skills.
+                </p>
+
+                <a href="#contact"
+                   class="project-btn">
+
+                    Coming Soon
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TECH STACK -->
+
+    <section id="techstack">
+
+        <div class="section-title">
+
+            <span>04</span>
+            <h2>Tech Stack</h2>
+
+        </div>
+
+
+        <div class="tech-container">
+
+            <div class="tech-card">
+                <h3>HTML</h3>
+                <p>Structure</p>
+            </div>
+
+            <div class="tech-card">
+                <h3>CSS</h3>
+                <p>Design</p>
+            </div>
+
+            <div class="tech-card">
+                <h3>JavaScript</h3>
+                <p>Interactivity</p>
+            </div>
+
+            <div class="tech-card">
+                <h3>GitHub</h3>
+                <p>Version Control</p>
+            </div>
+
+            <div class="tech-card">
+                <h3>VS Code</h3>
+                <p>Code Editor</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+
+    <section id="education">
+
+        <div class="section-title">
+
+            <span>05</span>
+            <h2>Education</h2>
+
+        </div>
+
+
+        <div class="education-card">
+
+            <div class="education-year">
+                BSIT
+            </div>
+
+            <h3>
+                Bachelor of Science in Information Technology
+            </h3>
+
+            <p>
+                Currently pursuing my degree in
+                Information Technology.
+            </p>
+
+            <span>
+                Information Technology Student
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
 
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Feel free to contact me through my email:</p>
 
-        <a href="mailto:febydawnsaldasal159@gmail.com">
+        <div class="section-title">
+
+            <span>06</span>
+            <h2>Let's Connect</h2>
+
+        </div>
+
+        <p class="contact-description">
+            Have a project, opportunity, or simply want to connect?
+            Feel free to reach out.
+        </p>
+
+
+        <a href="mailto:febydawnsaldasal159@gmail.com"
+           class="email-btn">
+
             febydawnsaldasal159@gmail.com
+
         </a>
-        <p>
-    <a href="https://www.facebook.com/share/1CyMU43Kjc/?mibextid=wwXIfr" target="_blank">Facebook</a>
-</p>
+
+
+        <div class="social-links">
+
+            <a href="https://www.facebook.com/share/1CyMU43Kjc/?mibextid=wwXIfr"
+               target="_blank">
+
+                Facebook
+
+            </a>
+
+            <a href="https://github.com/febydawnsaldasal159-ui"
+               target="_blank">
+
+                GitHub
+
+            </a>
+
+        </div>
+
     </section>
 
+
+    <!-- FOOTER -->
+
     <footer>
-        <p>© 2026 Feby. All rights reserved.</p>
+
+        <p>
+            © 2026 Feby Dawn Saldasal.
+            Built with HTML &amp; CSS.
+        </p>
+
     </footer>
 
+
 </body>
+
 </html>
